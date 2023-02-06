@@ -1,0 +1,35 @@
+# M03 Programming Assignments
+# Author: Joseph Roberts
+# Created: 2023-02-04
+# Assignments from chapters in book
+
+# Creates a list called things
+things = ["mozzarella", "cinderella", "salmonella"]
+
+# Changes the list item to start with a capital
+things[1] = "Cinderella"
+
+# Captialized the Cheese
+things[0] = "MOZZARELLA"
+
+# Deleted the disease
+del things[2]
+
+# Print List
+print(things)
+
+def good():
+    return ['Harry','Ron','Hermione']
+
+print(good())
+
+def get_odds():
+    for x in range(10):
+        if x %2 != 0:
+            print(x)
+
+print(get_odds())
+
+
+
+ 
